@@ -19,10 +19,13 @@ A step by step series of examples that tell you how to get a development env run
 
 Explain how to run the automated tests for this system
 
-
 ## Built With
 
 python 3.6
+
+## License
+
+[GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
 
 ## Authors
 
