@@ -38,17 +38,6 @@ else:
     user_input_naming_file =input("What name do you want to give your file, dont forget the ending of .csv: ")
 
 
-
-    # check if the specified filepath has .fastq files
-
-    for file in os.listdir(user_input):
-        if file.endswith('.fastq.gz'):
-            print("Valid .fastq files")
-        else:
-            print("This directory does not contain .fastq files, try again")
-
-
-
     with open (user_input_naming_file,"w") as k:
         writer = csv.writer(k)
         writer.writerow(["sample-id","absolute-filepath","direction"])
