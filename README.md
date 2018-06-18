@@ -1,3 +1,4 @@
+
 # Python scripts that help analysing 16S rRNA gene or ITS2 ampliconsequencing analysis with Qiime2
 
 The Qiime2 software requires some files to read like a manifest file containing sample-id, filepath and read direction. Furthermore, if you download Files from Basespace, each file has its own folder, what makes it hard to deal with them. There are also other scripts which might be useful like converting the .qza into a .csv file to read into R. 
@@ -21,7 +22,7 @@ Explain how to run the automated tests for this system
 
 ## Built With
 
-python 3.6
+Python 3.5.3
 
 ## License
 
